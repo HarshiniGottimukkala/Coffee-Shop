@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background{   
+    background-color:rgb(14, 13, 13);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo{
+    width: 50%;
+    text-align: center;
+}
+
+.icons{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    gap: 50px;
+}
+
+.icons p{
+    font-size: 20px;
+}
+
+.image {
+    background-image: url(./Images/pexels-nao-triponez-129207.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image #start,#end{
+    font-size: 4rem;
+    text-align: center;
+    color: rgb(252, 249, 247);
+}
+
+.shopnow{    
+    text-align: center;
+    /* margin-top: -10px; */
+}
+
+.shopnow button,.mocha button{
+    outline: 0;
+    border: 0;
+    background-color: rgb(232, 166, 66);
+    padding: 10px 40px;
+}
+
+.about{ 
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding:200px 0;
+}
+
+.text{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    color: antiquewhite;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding:60px;
+}
+.text button{
+    outline: 0;
+    border: 0;
+    width:30%;    
+    background-color: rgb(232, 166, 66);
+    padding: 10px 40px;
+}
+
+.cup{
+    width: 50%;
+}
+.cup img{
+    width: 400px;    
+}
+
+
+.products{
+    color: beige;
+    padding: 20px;
+}
+.name{
+    padding: 0 100px 0 50px ;
+   
+}
+.name h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+ }
+.mocha{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 40px;
+    border: 2px solid rgb(232, 166, 66);
+    border-radius:3%;
+    padding: 70px 10px; 
+}
+.mocha h2,.items{
+    text-align: center;
+    padding: 10px 50px;
+}
+.mocha h2{
+    font-family:'Times New Roman', Times, serif;
+}
+.items{    
+    line-height: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.end{
+    display: flex;
+    justify-content: space-around;
+    padding:60px;   
+}
+
+
+.footer h1,p,footer p{
+    color: azure; 
+}
+.footer h1{
+    text-align: center;
+    font-weight: 1000;
+    
+
+}
+.footer .color, footer .line,.color{
+    color:rgb(232, 166, 66) ;
+}
+
+.footer p,footer p{
+   font-size: 20px;
+}
+footer p{
+    text-align: center;
+    
+}
+
